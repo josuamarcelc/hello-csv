@@ -19,6 +19,8 @@ function naive() {
 
                 // FIXME: Put your transformation here
 
+                line = line[0] + ' ' + line[1];
+
                 if (index > 0) {
                     debug(`sending data index: ${index - 1}`);
 
